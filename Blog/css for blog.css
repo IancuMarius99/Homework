@@ -1,0 +1,43 @@
+p { 
+    font-size: 21px;
+}
+ul {
+    font-size: 21px;
+
+}
+li, p {
+    line-height:35px ;
+}
+p.headerP {
+    font-weight: bold;
+    font-size: 16pt;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 25px;
+}
+em {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    padding-left: 15cm;
+    padding-right: 15cm;
+}
+nav {
+    border-top:0cm ;
+    border-left:0cm ;
+    border-right:0cm ;
+    border-bottom: 0.6mm;
+    border-color: black;
+    border-style: solid;
+}
+article {
+    padding-bottom:3cm ;
+}
