@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercitiu Layout</title>
+    <style>
+        header, footer {
+            background-color: rgb(177, 174, 174);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            border-radius: 10px;
+            font-size: 27pt;
+            padding: 5pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            border-radius: 10px;
+            background-color: rgb(255, 115, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10pt;
+            margin-bottom: 10pt;
+            padding: 4pt;
+            font-size: 14pt;
+        }
+
+        main {
+            margin: 250.500pt;
+            margin-left: 407pt;
+            margin-right: 407pt;
+            background-color: black;
+            padding: 10pt;
+        }
+
+        html {
+            background-color: rgb(31, 30, 30);
+        }
+
+        div.container {
+            display: flex;
+            margin-bottom: 10pt;
+        }
+
+        div.container div.sidebar {
+            background-color: chartreuse;
+            text-align: center;
+            padding-top: 90pt;
+            padding-bottom: 90pt;
+            padding-left: 25pt;
+            padding-right: 25pt;
+            font-size: 14pt;
+            color: white;
+            border-radius: 10px;
+        }
+
+        div.container div.content {
+            background-color: rgb(0, 183, 255);
+            flex-grow: 1;
+            margin-left: 10pt;
+            text-align: center;
+            font-size: 14pt;
+            color: white;
+            border-radius: 10px;
+            padding-top: 90pt;
+            padding-bottom: 90pt;
+        }
+        footer {
+
+        }
+    </style>
+</head>
+<main>
+    <body>
+        <header>HEADER</header>
+        <nav>NAVIGATION</nav>
+        <div class="container">
+            <div class="sidebar">SIDEBAR</div>
+            <div class="content">CONTENT</div>
+        </div>
+        <footer>FOOTER</footer>
+    </body>
+</main>
+
+</html>
