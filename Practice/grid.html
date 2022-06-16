@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            * {
+                margin: 0cm;
+                padding: 0cm;
+            }
+            html {
+                background-color: black;
+            }
+            .grid-container {
+                position: relative;
+                top: 10rem;
+                left: 30rem;
+                text-align: center;
+                width: 50%;
+                height: 30rem;
+                display: grid;
+                grid-template-columns: 25% auto;
+                grid-template-rows: 15% 15% auto 15%;
+                grid-template-areas: 
+                'header header'
+                'navigation navigation'
+                'aside content'
+                'footer footer';
+                gap: 0.7rem;
+                background-color: rgb(49, 49, 49);
+                border: 00.7rem rgb(53, 53, 53) solid;
+            }
+            .head{
+                background-color: grey;
+                grid-area: header;
+                align-content: center;
+            }
+            .nav {
+                background-color: orange;
+                grid-area: navigation;
+            }
+            .aside {
+                background-color: green;
+                grid-area: aside;
+            }
+            .main {
+                background-color: aqua;
+                grid-area: content;
+            }
+            .foot {
+                background-color: grey;
+                grid-area: footer;
+            }
+            .flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .flex-item {
+                background-color: crimson;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="head">HEADER</div>
+            <div class="nav">NAVIGATION</div>
+            <div class="aside">ASIDE</div>
+            <div class="main">
+                <div class="flex">
+                    <div class="flex-item">ONE</div>
+                    <div class="flex-item">TWO</div>
+                    <div class="flex-item">THREE</div>
+                    <div class="flex-item">FOUR</div>
+                </div>
+            </div>
+            <div class="foot">FOOTER</div>
+        </div>
+    </body>
+</html>
