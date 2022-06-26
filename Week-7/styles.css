@@ -1,0 +1,152 @@
+@media only screen and (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 5% repeat(4, 1fr);
+        gap: 1.7rem;
+        grid-auto-rows: auto;
+        margin-right: 1.7rem;
+    }
+
+    .film-card img {
+        width: 100%;
+        height: 80%;
+        border-radius: 7pt;
+        
+    }
+
+    .film-card {
+        width: 100%;
+        height: 27rem;
+    }
+
+    .nav {
+        position: sticky;
+        left: 0.7rem;
+        top: 3rem;
+        color: aliceblue;
+        grid-column: 1 / 2;
+        grid-row: 1 / 9;
+        width: 85%;
+        height: 30rem;
+        text-align: center;
+        border-radius: 5pt;
+        background-color: rgba(2, 9, 109, 0.74);
+    }
+
+    .search {
+        grid-column: 1 / 6;
+        color: aliceblue;
+        grid-column: 2 / 6;
+        /* background-color: aqua; */
+        width: 45%;
+        background-color: rgba(2, 9, 109, 0.74);
+        padding: 0.4rem 0.2rem 0.4rem 0.2rem;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .nav-menu-icon {
+        padding: 0.5rem 0cm 0.5rem 0cm;
+
+    }
+
+    a.nav {
+        text-decoration: none;
+        color: rgba(163, 163, 163, 0.438);
+    }
+
+    a:hover {
+        color: rgba(245, 241, 241, 0.555);
+        transition-duration: 0.6s;
+    }
+
+    .top-button {
+        padding-bottom: 3rem;
+    }
+
+    .active {
+        color: white;
+    }
+
+    .top-button a:first-child {
+        color: rgba(255, 0, 0, 0.925);
+    }
+
+    .user-button {
+        padding-top: 10rem;
+    }
+
+    #main-search {
+        display: inline-block;
+        background-color: rgba(2, 8, 90, 0.74);
+        color: rgb(182, 180, 180);
+        width: 96%;
+        height: auto;
+        border: 0cm;
+    }
+
+    #main-search-button {
+        background-color: rgba(2, 9, 109, 0.74);
+        height: 1rem;
+        width: 1rem;
+        margin-right: 0.3rem;
+        color: azure;
+        border: 0ch;
+    }
+    
+    .recommended {
+        display: flex;
+        grid-column: 2 / 6;
+        gap: 1rem;
+        justify-content: flex-start;
+        height: 15rem;
+        color: beige;
+    }
+
+    .recommended-title{
+        grid-column: 2 / 6;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .recommended-item {
+        height: 100%;
+        width: 100%;
+    }
+    .recommended-item img {
+        height: 100%;
+        width: 100%;
+        border-radius: 7pt;
+
+    }
+    .description-recommended {
+        position: relative;
+        bottom: 6rem;
+        left: 0.4rem;
+        width: 13rem;
+    }
+    .description, h1 {
+        color: white;
+    }
+    #bookmark-trending {
+        position: relative;
+        bottom: 14.5rem;
+        left: 32rem;
+        background-color: rgba(150, 150, 150, 0.527);
+        padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+        border-radius: 50%;
+    }
+    #bookmark-recommended {
+        position: relative;
+        bottom: 24rem;
+        left: 22rem;
+        background-color: rgba(150, 150, 150, 0.527);
+        padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+        border-radius: 50%;
+    }
+}
