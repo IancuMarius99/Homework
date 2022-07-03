@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+       <meta name="author" content="Iancu-Marius">
+    </head>
+    <body>
+        <script>
+            
+
+            // SOLUTION 1:
+
+            var possibleOutcomes = ['rock', 'paper', 'scissors']
+            var randomItemComputer = possibleOutcomes[Math.floor(Math.random()*possibleOutcomes.length)];
+            var randomItemPlayer = possibleOutcomes[Math.floor(Math.random()*possibleOutcomes.length)];
+            console.log(randomItemComputer)
+            console.log(randomItemPlayer)
+
+            if  (randomItemComputer === 'rock' && randomItemPlayer === 'paper') {
+                console.log('Player Win')
+            }
+            else if (randomItemComputer === 'paper' && randomItemPlayer === 'rock') {
+                console.log('Computer Win')
+            }
+            else if (randomItemComputer === 'paper' && randomItemPlayer === 'scissors') {
+                console.log('Player Win')
+            }
+            else if (randomItemComputer === 'scissors' && randomItemPlayer === 'paper') {
+                console.log('Computer Win')
+            }
+            else if (randomItemComputer === 'scissors' && randomItemPlayer === 'rock') {
+                console.log('Player Win')
+            }
+            else if (randomItemComputer === 'rock' && randomItemPlayer === 'scissors') {
+                console.log('Computer Win')
+            }
+            else
+                console.log('It is a Draw')
+        </script>
+    </body>
+</html>
