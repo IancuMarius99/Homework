@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="js-homework">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Rock, Paper, Scissors v2.0</title>
+    <link rel="stylesheet" type="text/css" href="Global.css">
+    <link rel="stylesheet" type="text/css" href="r-p-sv2.css">
+</head>
+
+<body>
+    <div class="game-area">
+        <div class="info-container">
+            <div class="score-table">
+                <h1 class="modified-h1">SCORE:</h1>
+                <div class="standings">
+                <p class="modified-p" id="score-player">Player Score: 0 </p> 
+                <p class="modified-p" id="score-computer">Computer Score: 0 </p>
+                </div>
+            </div>
+            <div class="round-table">
+                <h1 class="modified-h1">CURRENT ROUND:</h1>
+                <div class="current-choices">
+                    <p class="modified-p" id="current-choice-player">You Chose: </p>
+                    <p class="modified-p" id="current-choice-computer">Computer Chose: </p>
+                </div>
+            </div>
+            <div class="results-table">
+                <h1 class="modified-h1" id="table-title">Round Result:</h1>
+                <h1 class="modified-h1" id="round-result">?</h1>
+            </div>
+        </div>
+        <div class="selector-area">
+            <div class="player-possible-choices">
+                <button type="button" id="player-rock" class="inactive" title="Rock"><img src="rock.png"></button>
+                <button type="button" id="player-paper" class="inactive" title="Paper"><img src="paper.png"></button>
+                <button type="button" id="player-scissors" class="inactive" title="Scissors"><img
+                        src="scissors.png"></button>
+            </div>
+            <div class="play">
+                <button type="button" id="play-button" title="Play"><img src="play2.png"></button>
+            </div>
+        </div>
+        <hr>
+        <div class="instructions-htp">
+            <p>1. Choose yor option from: Rock, Paper or Scissors by selecting it. </p>
+            <p>2. Hit the gren button to start the game. The Computer will pick for itself.</p>
+            <p>!. You can change your option after each round by selecting another option.</p>
+        </div>
+
+        <script src="r-p-sv2.js"></script>
+</body>
