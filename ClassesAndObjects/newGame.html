@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Iancu-Marius">
+    <meta name="keywords" content="add practice, ajax, promises">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../ClassesAndObjects/Models/models.js"></script>
+    <script type="text/javascript" src="../ClassesAndObjects/newGame.js"></script>
+</head>
+
+<body>
+    <h1>USING XML</h1>
+    <div class="command-container-xml">
+        <div class="button-list">
+            <button type="button" onclick="loadJokeUsingXML()">Load Joke through XML</button>
+            <p id="joke-line"></p>
+            <button type="button" onclick="addPostUsingXML()">Add post through XML</button>
+            <p id="add-message"></p>
+            <button type="button" onclick="updatePostUsingXML()">Update post through XML</button>
+            <p id="update-message"></p>
+            <button type="button" onclick="deletePostUsingXML()">Delete post through XML</button>
+            <p id="delete-message"></p>
+        </div>
+        <hr>
+        <h1>USING FETCH</h1>
+        <div id="containerID">
+            <div>
+                <button type="button" onclick="addPostUsingFetch()">Add User via Fetch</button>
+                <p id="added-user-message"></p>
+                <button type="button" onclick="updatePostUsingFetch()">Update post via Fetch</button>
+                <p id="updated-user-message"></p>
+                <button type="button" onclick="deletePostUsingFetch()">Delete post via Fetch</button>
+                <p id="deleted-user-message"></p>
+            </div>
+            <p id="postID"></p>
+        </div>
+    </div>
+
+    <div id="containerID">
+        <div>
+            <button type="button" onclick="loadAllPostsUsingFetch()">Load Users Using Fetch</button>
+        </div>
+        <p id="postID"></p>
+    </div>
+</body>
+
+</html>
