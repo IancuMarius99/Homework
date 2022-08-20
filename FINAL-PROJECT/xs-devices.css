@@ -1,10 +1,8 @@
-html {
-    background-color: rgb(0, 255, 157);
-}
 
 .grid-container {
     display: grid;
-    grid-template-columns: 5% 1fr 5%;
+    width: fit-content;
+    grid-template-columns: 1.5rem 1fr 1.5rem;
     grid-auto-rows: auto;
     row-gap: 1.5rem;
     margin-top: 2rem;
@@ -36,8 +34,9 @@ header {
 }
 
 .nav-link {
-    width:fit-content;
+    width: fit-content;
     height: 3rem;
+    font-size: 1.5rem !important;
 }
 
 .header-wapp-contact {
@@ -83,5 +82,23 @@ header {
 
 .drop-content {
     grid-column: 2 / 3;
+    row-gap: 5rem;
+}
 
+.drop-content .modded-h1 {
+    grid-column: 2 / 3;
+}
+
+.drop-content .indent-para {
+    grid-column: 2 / 3;
+    margin-top: 1rem;
+}
+
+.indent-para {
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+footer {
+    grid-column: 1 / 4;
 }

@@ -1,0 +1,29 @@
+@media only screen and (min-width: 600px) {
+    .grid-container {
+        display: grid;
+        width: fit-content;
+        grid-template-columns: 12.5rem 1fr 1.5rem;
+        grid-auto-rows: auto;
+        row-gap: 1.5rem;
+        margin-top: 2rem;
+        padding: 1rem 0rem 1rem 0rem;
+        background-color: white;
+    }
+
+
+    .navigation-bar {
+        grid-column: 1 / 2;
+        grid-row: 2 / 4;
+        margin: 0rem 1rem 0rem 0rem;
+        border: 4.7pt solid cyan;
+        padding: 2rem;
+    }
+
+    .nav-link {
+        width: fit-content;
+        height: 3rem;
+        font-size: 0.8rem !important;
+        /* overflow: visible; */
+        padding: 1rem 0.5rem 3rem 0.5rem !important;
+    }
+}
