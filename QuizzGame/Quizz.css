@@ -1,0 +1,49 @@
+.main-container {
+    border-top: 3pt solid rgb(184, 182, 182);
+    border-bottom: 2pt solid rgb(184, 182, 182);
+    border-left: 2pt solid rgb(184, 182, 182);
+    border-right: 2pt solid rgb(184, 182, 182);
+    border-radius: 3px;
+    margin: 3rem 25rem 3rem 25rem;
+    padding: 1rem;
+}
+
+.game-section-description {
+    text-align: center;
+    border-top: 1.5pt solid rgb(184, 182, 182);
+    padding-bottom: 0.3rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+}
+
+.score-board .section-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.info-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info-cards div {
+    border: 2pt solid red;
+    padding: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.current-question {
+    text-align: center;
+}
+
+#submit {
+    display: block;
+}
+
+.yes-no {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

@@ -45,9 +45,9 @@
     </header>
     <br>
     <div class="navigation-bar ">
-      <ul class="nav nav-pills  justify-content-center">
+      <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link active altered-size-drop-item" href="index.html">Home</a>
+          <a class="nav-link active altered-size-drop-item home-btn" href="index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle altered-size-drop-item" data-bs-toggle="dropdown" href="#">Work &amp;
@@ -70,10 +70,34 @@
     </div>
     <section class="drop-content">
       <h1 class="modded-h1">In this section you will find a general description of my Project</h1>
-      <p class="indent-para display-6">This Final Project represents my attempt to use and apply as many Front-End
+      <p class="indent-para display-6 text-primary">This Final Project represents my attempt to use and apply as many Front-End
         Development concepts, technologies and techniques in order to build a functional, easy to use and intuitive
         CV-like Website. </p>
+        <p class="indent-para display-6 text-primary">The Project is structured as a Multi-Page Application, which means that there are separate <code>HTML</code> Files for each Page. </p>
+        <p class="indent-para display-6 text-info">Check out some of the cool Projects I've been working on? You can do theat by clicking on the GitHub link down below.</p>
     </section>
+
+    <div class="offcanvas offcanvas-start" id="demo">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title">Heading</h1>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p id="film-display">Some text lorem ipsum.</p>
+        <p id="quote-display">Some text lorem ipsum.</p>
+        <button class="btn btn-secondary" type="button" id="filsms-button">Show me a Film</button>
+        <button class="btn btn-secondary" type="button" id="quotes-button" onclick="quotesFunction ()">Show me a Quote</button>
+        <script src="Reels.js"></script>
+      </div>
+    </div>
+    
+    <div class="canvas-section alert alert-info">
+      <strong>Want to know me on a more personal level?</strong> <p>Hit the 'Know me Better' button and find out some of my favourite Movies and Quotes!</p>
+    <!-- Button to open the offcanvas sidebar -->
+    <button class="btn btn-primary canvas-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+      Know me Better
+    </button>
+    </div>
 
     <footer class="text-center text-white footer-styled " style="background-color: #cecbcb;">
 
@@ -81,27 +105,28 @@
 
         <section class="mb-4">
 
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://web.facebook.com/profile.php?id=100010977360031" role="button" data-mdb-ripple-color="dark"><i
+              class="fab fa-facebook-f"></i></a>
 
 
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/tweeter" role="button"
             data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
 
 
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.google.com/" role="button"
             data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
 
 
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/?hl=en"
+            role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
 
 
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/" role="button"
             data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
 
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-            data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/IancuMarius99"
+            role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
         </section>
 
       </div>
