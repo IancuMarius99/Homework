@@ -146,3 +146,7 @@ footer {
 .margin-bottom-altered {
     margin-bottom: 2rem;
 }
+
+.it-skills {
+    height: 17px !important;
+}

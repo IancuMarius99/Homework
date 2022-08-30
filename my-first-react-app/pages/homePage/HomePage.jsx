@@ -14,7 +14,7 @@ const HomePage = () => {
     //   .then(json => {
     //     setProductList(json)
     //   })
-  }, []) // doar odata se executa
+  }, []) 
   const onClickToCart = function (addedProduct) {
     console.log("Added to cart produs = ", addedProduct)
     const existProduct = cart.find((cartProduct) => {
