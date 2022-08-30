@@ -21,7 +21,7 @@ header {
 
 .user-image {
     width: 18rem;
-    height: 12rem;
+    height: 14rem;
     justify-self: center;
     margin: auto;
     border-radius: 50%;
@@ -128,7 +128,7 @@ footer {
     border-radius: 3pt;
     padding: 1rem;
     margin-bottom: 0.3rem;
-    box-shadow: 3pt 3pt 10pt rgba(110, 110, 110, 0.753) ;
+    box-shadow: 3pt 3pt 10pt rgba(110, 110, 110, 0.753);
 }
 
 .section-paragraph {
@@ -139,7 +139,7 @@ footer {
     border-left: 4.5pt solid rgba(110, 110, 110, 0.384);
     border-bottom: 3pt solid rgba(110, 110, 110, 0.753);
     border-bottom-left-radius: 3pt;
-    box-shadow: 3pt 3.5pt 5pt rgba(110, 110, 110, 0.753) ;
+    box-shadow: 3pt 3.5pt 5pt rgba(110, 110, 110, 0.753);
     padding-left: 0.5rem;
 }
 
