@@ -21,3 +21,6 @@ function filmsFunction() {
     const randomFilm = films[Math.floor(Math.random() * films.length)];
     document.getElementById('film-display').innerHTML = randomFilm;
 }; 
+
+
+

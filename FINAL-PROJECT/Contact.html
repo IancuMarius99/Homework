@@ -9,6 +9,7 @@
   <meta name="author" content="Iancu-Marius Bufnea">
   <meta name="keywords" content="CV">
   <link rel="stylesheet" type="text/css" href="FP-Global.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
   <link rel="stylesheet" type="text/css" href="xs-devices.css">
   <link rel="stylesheet" type="text/css" href="sm-devices.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +27,8 @@
   <div class="grid-container">
     <header>
       <div class="header-image-description">
-        <div class="user-image-div"><a href="index.html"><img class="user-image" src="cv-img.jpg" title="Go to Home Page"></a></div>
+        <div class="user-image-div"><a href="index.html"><img class="user-image" src="cv-img.jpg"
+              title="Go to Home Page"></a></div>
         <div class="user-description">
           <p class="quick-description-header"><strong class="quick-description-header">Age: </strong>22</p>
           <p class="quick-description-header"><strong class="quick-description-header">Gender: </strong>Male</p>
@@ -53,7 +55,8 @@
           <a class="nav-link dropdown-toggle altered-size-drop-item" data-bs-toggle="dropdown" href="#">Work &amp;
             Education</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item nav-link altered-size-drop-item" href="AcademicInformation.html">Accademic Information</a></li>
+            <li><a class="dropdown-item nav-link altered-size-drop-item" href="AcademicInformation.html">Accademic
+                Information</a></li>
             <li><a class="dropdown-item nav-link altered-size-drop-item" href="Work.html">Work Experience</a></li>
           </ul>
         </li>
@@ -68,82 +71,123 @@
     <div class="brake-line">
     </div>
     <section class="drop-content">
-      <h1 class="modded-h1">In this section you will find a general description of my Project</h1>
-      <p class="indent-para display-6">This Final Project represents my attempt to use and apply as many Front-End
-        Development concepts, technologies and techniques in order to build a functional, easy to use and intuitive
-        CV-like Website. </p>
+      <h1 class="modded-h1">In this section you will find a Contact Form if you want to get in touch.</h1>
     </section>
-    <footer class="text-center text-white" style="background-color: #cecbcb;">
-      <!-- Grid container -->
-      <div class="container pt-4">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Facebook -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
     
-          <!-- Twitter -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-twitter"></i
-          ></a>
-    
-          <!-- Google -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-google"></i
-          ></a>
-    
-          <!-- Instagram -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-instagram"></i
-          ></a>
-    
-          <!-- Linkedin -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <!-- Github -->
-          <a
-            class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="#!"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fab fa-github"></i
-          ></a>
-        </section>
-        <!-- Section: Social media -->
+    <div class="form-container">
+      <div class="jumbotron jumbotron-sm">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-12">
+              <h1 class="h1">
+                Contact me <br><small>Fill in the Form to get in touch.</small></h1>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Grid container -->
-    
-      <!-- Copyright -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="well well-sm">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="name">
+                        Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">
+                        Email Address</label>
+                      <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                        </span>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email"
+                          required="required" />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="subject">
+                        Subject</label>
+                      <select id="subject" name="subject" class="form-control" required="required">
+                        <option value="na" selected="">Choose One:</option>
+                        <option value="service">Job Offer</option>
+                        <option value="suggestions">Social Call</option>
+                        <option value="product">Ask Me a Question</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="name">
+                        Message</label>
+                      <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                        placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                      Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <legend><span class="glyphicon glyphicon-globe"></span>Contact Me</legend>
+              <address>
+                Feel free to contact me if you want to send me a message, furnish me with a job offer or just for a
+                social call.<br>
+              </address>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? -->
+    <footer class="text-center text-white footer-styled " style="background-color: #cecbcb;">
+
+      <div class="container pt-4">
+
+        <section class="mb-4">
+
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://web.facebook.com/profile.php?id=100010977360031" target="_blank" role="button"
+            data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/tweeter" target="_blank"
+            role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.google.com/" target="_blank"
+            role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/?hl=en"
+            target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/" role="button"
+            target="_blank" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+
+          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/IancuMarius99"
+            target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+        </section>
+
+      </div>
+
       <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2020 Copyright:
         <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
       </div>
-      <!-- Copyright -->
+
     </footer>
   </div>
-  
+
 </body>
 
 </html>
