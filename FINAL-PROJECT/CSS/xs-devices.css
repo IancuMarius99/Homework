@@ -8,6 +8,10 @@
     padding: 1rem 0rem 1rem 0rem;
     background-color: white;
 }
+.indent-para {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
 
 .header-image-description {
     display: flex;

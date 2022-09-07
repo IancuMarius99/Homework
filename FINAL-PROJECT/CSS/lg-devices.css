@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        display: grid;
+        width: fit-content;
+        grid-template-columns: 17% 73% 5%;
+        grid-auto-rows: auto;
+        row-gap: 1.5rem;
+        margin-top: 2rem;
+        padding: 1rem 0rem 1rem 0rem;
+        background-color: white;
+    }
+}
