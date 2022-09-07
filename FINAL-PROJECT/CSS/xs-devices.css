@@ -69,8 +69,8 @@ header {
 }
 
 .user-description:hover {
-    background-color: rgba(40, 252, 171, 0.76);
-    border-left: 5pt double rgb(4, 247, 154);
+    background-color: rgba(175, 175, 175, 0.76);
+    border-left: 5pt double rgb(94, 94, 94);
     padding-right: 8.5rem;
     justify-content: center;
     flex-wrap: nowrap;
@@ -79,7 +79,7 @@ header {
 
 .brake-line {
     grid-column: 2 / 3;
-    border-top: 7pt solid rgba(2, 248, 154, 0.664);
+    border-top: 7pt solid rgba(0, 0, 0, 0.664);
 }
 
 .drop-content {
