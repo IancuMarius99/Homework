@@ -16,3 +16,8 @@ html {
     text-align: center;
     margin: 1rem 0rem 2.5rem 0rem;
 }
+
+body {
+    margin: 0%;
+    padding: 0%;
+}

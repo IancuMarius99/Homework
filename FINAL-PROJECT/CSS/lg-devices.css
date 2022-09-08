@@ -2,7 +2,7 @@
     .grid-container {
         display: grid;
         width: fit-content;
-        grid-template-columns: 17% 73% 5%;
+        grid-template-columns: 15% 80% 5%;
         grid-auto-rows: auto;
         row-gap: 1.5rem;
         margin-top: 2rem;
