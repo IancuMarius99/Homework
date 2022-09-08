@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1200px) {
     .grid-container {
         display: grid;
-        width: fit-content;
+        width: 100%;
         grid-template-columns: 15% 80% 5%;
         grid-auto-rows: auto;
         row-gap: 1.5rem;
